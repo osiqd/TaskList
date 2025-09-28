@@ -6,7 +6,7 @@
 
 **Скриншот рабочего окна приложения**:
 
-![Интерфейс приложения](https://github.com/osiqd/TaskList/blob/main/photo_2025-09-29_01-27-35.jpg?raw=true)
+![Интерфейс приложения](https://github.com/user-attachments/assets/a40fb2ba-d5f7-462e-8a61-ec8b8015ade1)
 
 ## Архитектура
 ![UML model](https://github.com/user-attachments/assets/101f0f7a-7e14-409c-a0e9-2562619cb186)
