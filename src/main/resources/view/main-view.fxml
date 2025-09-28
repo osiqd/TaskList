@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="lab1.tasklist.MainController">
+
+    <top>
+        <ToolBar>
+            <Button text="Добавить" onAction="#onAdd"/>
+            <Button text="Изменить" onAction="#onEdit"/>
+            <TextField fx:id="tfSearch" promptText="Поиск" onKeyReleased="#onSearch"/>
+            <ChoiceBox fx:id="cbSource"/>
+        </ToolBar>
+    </top>
+
+    <center>
+        <TableView fx:id="table">
+            <columns>
+                <TableColumn fx:id="colId" text="ID"/>
+                <TableColumn fx:id="colName" text="Название"/>
+                <TableColumn fx:id="colTime" text="Время"/>
+                <TableColumn fx:id="colExecutor" text="Исполнитель"/>
+                <TableColumn fx:id="colStatus" text="Статус"/>
+                <TableColumn fx:id="colDue" text="Срок"/>
+            </columns>
+        </TableView>
+    </center>
+</BorderPane>
